@@ -113,7 +113,19 @@ For testing, restart the server after an owner edit and refresh the page. If the
 
 ---
 
-## 2. Host the website online with Render
+## 2. Deploy the website on Vercel
+
+The frontend is served as static files, and `api/[...path].js` provides the inventory and owner-session API. Inventory edits are stored in Vercel Blob so they survive serverless invocations and deployments.
+
+1. In the Vercel dashboard, import the GitHub repository and leave the project root at the repository root. The project does not need a build command.
+2. Create a **Blob** store in the Vercel project and connect it to this project. Vercel adds `BLOB_READ_WRITE_TOKEN` to the project environment.
+3. In **Project Settings → Environment Variables**, add `ADMIN_PASSWORD` with a long, unique owner password. Do not add it to the repository.
+4. Deploy (or redeploy) the project. The first inventory request seeds the Blob store from `data/inventory.json`; subsequent owner quantity changes save to the Blob.
+5. Open the deployment URL, verify public inventory loads, sign in with `ADMIN_PASSWORD`, change a test quantity, and refresh to confirm it persists.
+
+The inventory Blob is publicly readable because the inventory itself is public; only the API can write it. Keep the Blob write token and `ADMIN_PASSWORD` private. For local preview, continue using `node server.js`; local quantity changes are saved to `data/inventory.json`.
+
+## 3. Host the website online with Render
 
 This website cannot be hosted as a simple static page because it has a Node server and saves owner quantity changes. Avoid GitHub Pages and static-only hosting for this version.
 
@@ -197,10 +209,11 @@ Railway also works if you create a web service, add the same three environment v
 
 ## Project files
 
-- `public/index.html` - page content and Aarambh event text
-- `public/styles.css` - pamphlet-inspired responsive visual theme
-- `public/app.js` - search, filters, session state, and quantity controls
+- `index.html` - page content and Aarambh event text
+- `styles.css` - pamphlet-inspired responsive visual theme
+- `app.js` - search, filters, session state, and quantity controls
 - `data/inventory.json` - initial component name and quantity data
-- `server.js` - Node server, owner authentication, and protected updates
+- `server.js` - local Node server, owner authentication, and protected updates
+- `api/[...path].js` - Vercel API, owner authentication, and Blob persistence
 
 For production, always keep `NODE_ENV=production`, use HTTPS, and keep `ADMIN_PASSWORD` private.

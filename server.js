@@ -7,7 +7,7 @@ const path = require("node:path");
 
 const PORT = Number(process.env.PORT || 3000);
 const ROOT = __dirname;
-const PUBLIC_DIR = path.join(ROOT, "public");
+const PUBLIC_DIR = ROOT;
 const SEED_INVENTORY_FILE = path.join(ROOT, "data", "inventory.json");
 const DATA_DIR = process.env.DATA_DIR || path.join(ROOT, "data");
 const INVENTORY_FILE = path.join(DATA_DIR, "inventory.json");
@@ -126,11 +126,11 @@ function cleanExpiredSessions() {
 
 function serveStatic(res, urlPath) {
   const pathname = urlPath === "/" ? "/index.html" : urlPath;
-  const safePath = path.resolve(PUBLIC_DIR, `.${pathname}`);
-  if (!safePath.startsWith(`${PUBLIC_DIR}${path.sep}`)) {
-    sendJson(res, 403, { error: "Forbidden." });
+  if (!["/index.html", "/styles.css", "/app.js"].includes(pathname)) {
+    sendJson(res, 404, { error: "Not found." });
     return;
   }
+  const safePath = path.join(PUBLIC_DIR, pathname.slice(1));
 
   fs.readFile(safePath, (error, file) => {
     if (error) {
@@ -203,3 +203,4 @@ server.listen(PORT, () => {
     console.log("Local preview owner key: hackathon-owner (set ADMIN_PASSWORD before deployment)");
   }
 });
+
