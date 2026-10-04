@@ -1,0 +1,12 @@
+{
+  "name": "hackathon-inventory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public hackathon component inventory with owner-only quantity controls.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

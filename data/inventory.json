@@ -1,0 +1,607 @@
+[
+  {
+    "id": "cmp-001",
+    "name": "DS18B20 Probe",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-002",
+    "name": "DS18B20 Temperature Module #",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-003",
+    "name": "SHT41 Temp & Humidity 2.54mm",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-004",
+    "name": "DHT22 Temp & Humidity",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-005",
+    "name": "100K NTC Temperature Sensor Probe",
+    "quantity": 5
+  },
+  {
+    "id": "cmp-006",
+    "name": "MLX90614 IR Temp",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-007",
+    "name": "LM35 Temp. Mod",
+    "quantity": 5
+  },
+  {
+    "id": "cmp-008",
+    "name": "MAX6675 K-Type",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-009",
+    "name": "Capacitive Soil Moisture",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-010",
+    "name": "PH Sensor Kit",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-011",
+    "name": "Turbidity Sensor Module",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-012",
+    "name": "YF-S201 Water Flow",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-013",
+    "name": "Rain Drop Sens Mod",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-014",
+    "name": "MAX9814 # Microphone Amp.",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-015",
+    "name": "LDR Light Sens 4 Pin Mod",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-016",
+    "name": "BH1750 Light Intensity",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-017",
+    "name": "TCS3200 Colour",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-018",
+    "name": "Narrow Slot IR Sensor",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-019",
+    "name": "Big Dome PIR Mod.",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-020",
+    "name": "RCWL0516 Microwave Motion",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-021",
+    "name": "MPU6050 Acc. & Gyro",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-022",
+    "name": "ADXL345 Accelerometer",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-023",
+    "name": "SW-420 Vibration Sen Mod",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-024",
+    "name": "Tilt Sensor Module",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-025",
+    "name": "HC-SR04 Ultrasonic Dist.",
+    "quantity": 5
+  },
+  {
+    "id": "cmp-026",
+    "name": "JSN-SR04T WP Ultrasonic",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-027",
+    "name": "VL53L0X V2 Module",
+    "quantity": 3
+  },
+  {
+    "id": "cmp-028",
+    "name": "NEO-6M GPS Mod",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-029",
+    "name": "Hall 3144E Sensor Module",
+    "quantity": 3
+  },
+  {
+    "id": "cmp-030",
+    "name": "FSR402 # Force Sensor",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-031",
+    "name": "BMP280 Pressure",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-032",
+    "name": "1Kg YZC131 Miniature Load Cell",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-033",
+    "name": "HX711 Load Cell Amp 24bit ADC",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-034",
+    "name": "MQ136 H2S Gas Sens Mod",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-035",
+    "name": "MQ4 Methane Sens Mod",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-036",
+    "name": "MQ2 Smoke Sens Mod",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-037",
+    "name": "MQ135 Air Quality",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-038",
+    "name": "Fire / Flame Sens. (4P)",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-039",
+    "name": "ACS712-30A Current",
+    "quantity": 5
+  },
+  {
+    "id": "cmp-040",
+    "name": "INA219 Bi-Directional Current",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-041",
+    "name": "ZMPT101B AC Volt",
+    "quantity": 11
+  },
+  {
+    "id": "cmp-042",
+    "name": "SCT013-100 100A Current",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-043",
+    "name": "MAX30102 Pulse Mod (B)",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-044",
+    "name": "Flat Vibration Motor",
+    "quantity": 3
+  },
+  {
+    "id": "cmp-045",
+    "name": "SG90 Micro Servo Motor",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-046",
+    "name": "MG995 180 Deg (M) Servo",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-047",
+    "name": "NEMA17 Stepper Motor - 40mm",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-048",
+    "name": "BO1 100 RPM Dual Shaft",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-049",
+    "name": "20Grid Disc Wheel for BO",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-050",
+    "name": "ESC 30 A",
+    "quantity": 5
+  },
+  {
+    "id": "cmp-051",
+    "name": "Submersible 12V Water Pump",
+    "quantity": 3
+  },
+  {
+    "id": "cmp-052",
+    "name": "NKP-DE-S10B Kamoer Pump",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-053",
+    "name": "Micro Submersible Water Pump",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-054",
+    "name": "1x5V Relay Mod",
+    "quantity": 21
+  },
+  {
+    "id": "cmp-055",
+    "name": "Humidifier (C) Module",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-056",
+    "name": "12V/10A Metal",
+    "quantity": 13
+  },
+  {
+    "id": "cmp-057",
+    "name": "12V/5A Metal",
+    "quantity": 18
+  },
+  {
+    "id": "cmp-058",
+    "name": "12V/2A UPC",
+    "quantity": 8
+  },
+  {
+    "id": "cmp-059",
+    "name": "5V/10A Metal",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-060",
+    "name": "5V/5A Mini Maxicom",
+    "quantity": 3
+  },
+  {
+    "id": "cmp-061",
+    "name": "5V/2A Exp-Pro",
+    "quantity": 8
+  },
+  {
+    "id": "cmp-062",
+    "name": "5V/1A Exp-Pro",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-063",
+    "name": "MB102 B/B",
+    "quantity": 30
+  },
+  {
+    "id": "cmp-064",
+    "name": "DM3656 PCB",
+    "quantity": 30
+  },
+  {
+    "id": "cmp-065",
+    "name": "LM2596 3A DC-DC Buck",
+    "quantity": 12
+  },
+  {
+    "id": "cmp-066",
+    "name": "1602 I2C (B) LCD",
+    "quantity": 30
+  },
+  {
+    "id": "cmp-067",
+    "name": "ACS712-5A Current Sens",
+    "quantity": 5
+  },
+  {
+    "id": "cmp-068",
+    "name": "18650 3200mAh",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-069",
+    "name": "1x12V Relay Mod",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-070",
+    "name": "ESP32 NodeMCU 38P",
+    "quantity": 16
+  },
+  {
+    "id": "cmp-071",
+    "name": "ESP32-DevKitC WROOM-32D/32U",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-072",
+    "name": "ESP32 C3 Mini",
+    "quantity": 4
+  },
+  {
+    "id": "cmp-073",
+    "name": "ESP32-S3-N8R2 Dev. Mod",
+    "quantity": 3
+  },
+  {
+    "id": "cmp-074",
+    "name": "Arduino UNO EK R4",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-075",
+    "name": "Nano Board Soldered",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-076",
+    "name": "ESP32-S3-N16R8 UFL Mod",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-077",
+    "name": "ESP32-S3 CAM Module",
+    "quantity": 4
+  },
+  {
+    "id": "cmp-078",
+    "name": "IRF520",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-079",
+    "name": "A4988 Stepper Driver",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-080",
+    "name": "ULN2003 (I)",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-081",
+    "name": "ULN2803 #",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-082",
+    "name": "TIP122 #",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-083",
+    "name": "2N2222",
+    "quantity": 15
+  },
+  {
+    "id": "cmp-084",
+    "name": "BC547 #",
+    "quantity": 20
+  },
+  {
+    "id": "cmp-085",
+    "name": "PC817",
+    "quantity": 15
+  },
+  {
+    "id": "cmp-086",
+    "name": "74HC14",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-087",
+    "name": "74HC595 #",
+    "quantity": 20
+  },
+  {
+    "id": "cmp-088",
+    "name": "LM393",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-089",
+    "name": "LM358 (U)",
+    "quantity": 115
+  },
+  {
+    "id": "cmp-090",
+    "name": "AMS1117 3.3V SMD",
+    "quantity": 20
+  },
+  {
+    "id": "cmp-091",
+    "name": "4W Bi-Directional LLC",
+    "quantity": 25
+  },
+  {
+    "id": "cmp-092",
+    "name": "DB107",
+    "quantity": 20
+  },
+  {
+    "id": "cmp-093",
+    "name": "1N5819 Diode",
+    "quantity": 20
+  },
+  {
+    "id": "cmp-094",
+    "name": "1N5822 Diode",
+    "quantity": 20
+  },
+  {
+    "id": "cmp-095",
+    "name": "1N4007 (H) Diode",
+    "quantity": 80
+  },
+  {
+    "id": "cmp-096",
+    "name": "100KpF Disc Cap",
+    "quantity": 100
+  },
+  {
+    "id": "cmp-097",
+    "name": "10uF/63V (H) 5x11",
+    "quantity": 50
+  },
+  {
+    "id": "cmp-098",
+    "name": "100uF/25V (H) 6x11",
+    "quantity": 50
+  },
+  {
+    "id": "cmp-099",
+    "name": "470uF/25V (H) 8x12",
+    "quantity": 50
+  },
+  {
+    "id": "cmp-100",
+    "name": "1000uF/16V (H) 8x16",
+    "quantity": 50
+  },
+  {
+    "id": "cmp-101",
+    "name": "1N4148 Diode",
+    "quantity": 40
+  },
+  {
+    "id": "cmp-102",
+    "name": "40 M-M 20cm Jumper",
+    "quantity": 30
+  },
+  {
+    "id": "cmp-103",
+    "name": "40 M-F 20cm Jumper",
+    "quantity": 30
+  },
+  {
+    "id": "cmp-104",
+    "name": "40 F-F 20cm Jumper",
+    "quantity": 30
+  },
+  {
+    "id": "cmp-105",
+    "name": "EP32 5mm Diffused LED Pack (100 pcs, 5 colors)",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-106",
+    "name": "10mm CT",
+    "quantity": 30
+  },
+  {
+    "id": "cmp-107",
+    "name": "Tact Switch Assorted Box",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-108",
+    "name": "10-Z1P 2A Limit S/W",
+    "quantity": 20
+  },
+  {
+    "id": "cmp-109",
+    "name": "25V DC Voltage Mod.",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-110",
+    "name": "10Way Ribbon 5Mtr.",
+    "quantity": 2
+  },
+  {
+    "id": "cmp-111",
+    "name": "220E 1/4W CFR",
+    "quantity": 100
+  },
+  {
+    "id": "cmp-112",
+    "name": "330E 1/4W CFR",
+    "quantity": 100
+  },
+  {
+    "id": "cmp-113",
+    "name": "1K 1/4W CFR",
+    "quantity": 100
+  },
+  {
+    "id": "cmp-114",
+    "name": "4K7 1/4W CFR",
+    "quantity": 100
+  },
+  {
+    "id": "cmp-115",
+    "name": "10K 1/4W CFR",
+    "quantity": 100
+  },
+  {
+    "id": "cmp-116",
+    "name": "Air Pressure Sen. Mod.",
+    "quantity": 1
+  },
+  {
+    "id": "cmp-117",
+    "name": "1000KV BLDC Motor",
+    "quantity": 6
+  },
+  {
+    "id": "cmp-118",
+    "name": "Propeller",
+    "quantity": 4
+  },
+  {
+    "id": "cmp-119",
+    "name": "2 Pin Reed S/W",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-120",
+    "name": "1.5F/5.5V Super Cap",
+    "quantity": 10
+  },
+  {
+    "id": "cmp-121",
+    "name": "L293D# Motor Driver Mod",
+    "quantity": 5
+  }
+]
